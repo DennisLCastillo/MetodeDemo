@@ -1,6 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         Person p1 = new Person(1.72);
-        Person p2 = new Person(2.12);
+        System.out.print(p1.getHeight());
+        System.out.println();
+        p1.setHeight(1.79);
+        System.out.println("ny højde " + p1.getHeight());
     }
 }
